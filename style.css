@@ -1,0 +1,37 @@
+:root {
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+
+    --transparent-white: hsla(0, 0%, 100%, 0.75);
+    --very-light-gray: hsl(0, 0%, 95%);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    width: 327px;
+    height: 442px;
+    color: var(--very-light-gray);
+}
+
+.orange {
+    background-color: var(--bright-orange);
+}
+
+.cyan {
+    background-color: var(--dark-cyan);
+}
+
+.dark-cyan {
+    background-color: var(--very-dark-cyan);
+}
