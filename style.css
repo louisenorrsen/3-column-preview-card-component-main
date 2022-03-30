@@ -80,6 +80,7 @@
     border: var(--very-light-gray) solid 2px;
     padding: 11px 30px;
     font-family: var(--lexend);
+    font-size: 15px;
 }
 
 .btn:hover {
@@ -103,6 +104,7 @@
 @media only screen and (min-width: 1440px) {
     .container {
         flex-direction: row;
+        position: relative;
     }
 
     .attribution {
