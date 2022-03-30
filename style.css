@@ -97,7 +97,7 @@ body {
 .attribution { 
     font-size: 12px; 
     text-align: center;
-    bottom: 0;
+    top: 0;
     color: var(--very-dark-cyan);
 }
 
