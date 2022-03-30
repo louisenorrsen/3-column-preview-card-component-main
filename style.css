@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
 :root {
     --bright-orange: hsl(31, 77%, 52%);
     --dark-cyan: hsl(184, 100%, 22%);
@@ -5,27 +7,29 @@
 
     --transparent-white: hsla(0, 0%, 100%, 0.75);
     --very-light-gray: hsl(0, 0%, 95%);
+    
+    --big-shoulders: 'Big Shoulders Display';
+    --lexend: 'Lexend Deca', sans-serif;
 }
 
-body {
+.container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    place-content: center;
+    place-items: center;
+    min-height: 100vh;
 }
 
 .card {
+    box-sizing: border-box;
     width: 327px;
     height: 442px;
-    color: var(--very-light-gray);
+    padding: 48px;
 }
 
 .orange {
     background-color: var(--bright-orange);
+    border-radius: 8px 8px 0 0;
 }
 
 .cyan {
@@ -34,4 +38,86 @@ body {
 
 .dark-cyan {
     background-color: var(--very-dark-cyan);
+    border-radius: 0 0 8px 8px;
+}
+
+.orange-text {
+    color: var(--bright-orange);
+}
+
+.cyan-text {
+    color: var(--dark-cyan);
+}
+
+.dark-cyan-text {
+    color: var(--very-dark-cyan);
+}
+
+.img {
+    margin-bottom: 35px;
+}
+
+.card--title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    font-family: var(--big-shoulders);
+    text-transform: uppercase;
+    color: var(--very-light-gray);
+}
+
+.card--text {
+    font-family: var(--lexend);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    margin: 25px 0;
+    color: var(--transparent-white);
+}
+
+.btn {
+    border-radius: 25px;
+    border: var(--very-light-gray) solid 2px;
+    padding: 11px 30px;
+    font-family: var(--lexend);
+}
+
+.btn:hover {
+    border: var(--very-light-gray) solid 2px;
+    background-color: transparent;
+    color: var(--very-light-gray);
+    cursor: pointer;
+}
+
+.attribution { 
+    font-size: 12px; 
+    text-align: center;
+    bottom: 0;
+    color: var(--very-dark-cyan);
+}
+
+.attribution a { 
+    color: var(--bright-orange); 
+}
+
+@media only screen and (min-width: 1440px) {
+    .container {
+        flex-direction: row;
+    }
+
+    .attribution {
+        position: absolute;
+    }
+
+    .orange {
+        border-radius: 8px 0 0 8px;
+    }
+
+    .dark-cyan {
+        border-radius: 0 8px 8px 0;
+    }
+
+    .card {
+        width: 307px;
+    }
 }
