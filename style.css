@@ -83,9 +83,10 @@ body {
 .btn {
     border-radius: 25px;
     border: var(--very-light-gray) solid 2px;
-    padding: 13px 31px;
+    padding: 11px 31px;
     font-family: var(--lexend);
     font-size: 15px;
+    line-height: 25px;
 }
 
 .btn:hover {
