@@ -59,7 +59,7 @@ body {
 }
 
 .img {
-    margin-bottom: 33px;
+    margin-bottom: 35px;
 }
 
 .card--title {
@@ -76,7 +76,7 @@ body {
     font-weight: 400;
     font-size: 15px;
     line-height: 25px;
-    margin: 25px 0;
+    margin: 26px 0;
     color: var(--transparent-white);
 }
 
