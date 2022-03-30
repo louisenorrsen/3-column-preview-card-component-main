@@ -23,7 +23,7 @@
 .card {
     box-sizing: border-box;
     width: 327px;
-    height: 442px;
+    min-height: 442px;
     padding: 48px;
 }
 
@@ -119,5 +119,9 @@
 
     .card {
         width: 307px;
+    }
+
+    .card--text {
+        margin-bottom: 83px;
     }
 }
