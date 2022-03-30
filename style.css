@@ -76,14 +76,14 @@ body {
     font-weight: 400;
     font-size: 15px;
     line-height: 25px;
-    margin: 25px 0;
+    margin: 26px 0;
     color: var(--transparent-white);
 }
 
 .btn {
     border-radius: 25px;
     border: var(--very-light-gray) solid 2px;
-    padding: 11px 30px;
+    padding: 12px 31px;
     font-family: var(--lexend);
     font-size: 15px;
 }
