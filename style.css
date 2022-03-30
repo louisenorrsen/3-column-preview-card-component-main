@@ -88,7 +88,6 @@ body {
 }
 
 .btn:hover {
-    border: var(--very-light-gray) solid 2px;
     background-color: transparent;
     color: var(--very-light-gray);
     cursor: pointer;
