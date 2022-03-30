@@ -22,7 +22,7 @@ body {
     place-content: center;
     place-items: center;
     min-height: 100vh;
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 .card {
