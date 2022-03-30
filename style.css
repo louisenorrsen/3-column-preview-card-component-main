@@ -12,6 +12,10 @@
     --lexend: 'Lexend Deca', sans-serif;
 }
 
+body {
+    background-color: var(--very-light-gray);
+}
+
 .container {
     display: flex;
     flex-direction: column;
